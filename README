@@ -1,0 +1,35 @@
+# Clustering Evaluation on the Iris Dataset
+
+This project demonstrates the application of multiple clustering algorithms on the Iris dataset using various preprocessing techniques. It evaluates the performance of clustering results using standard metrics and saves the outcomes for analysis.
+
+---
+
+## 📊 Clustering Algorithms Used
+- **K-Means Clustering**
+- **Agglomerative (Hierarchical) Clustering**
+- **Mean Shift Clustering**
+
+---
+
+## ⚙️ Preprocessing Techniques
+Each clustering algorithm is applied on four versions of the Iris dataset:
+1. **Original** – raw data
+2. **Normalized** – data scaled using `StandardScaler`
+3. **PCA** – data reduced to 2 principal components
+4. **Normalized + PCA** – scaled and then PCA-applied data
+
+---
+
+## 🧪 Evaluation Metrics
+For each algorithm and data variant, the following metrics are computed:
+- **Silhouette Score**
+- **Calinski-Harabasz Index**
+- **Davies-Bouldin Index**
+
+These metrics help assess the compactness, separation, and overall quality of clustering.
+
+---
+
+## 📁 Output
+The final clustering evaluation results are stored in a CSV file
+
